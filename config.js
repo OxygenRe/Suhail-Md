@@ -18,13 +18,13 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/G8AfL9AinTlLrKf7f6zZFT";
+global.website=process.env.GURL || "https://chat.whatsapp.com/JiWxBmbxpsFFERjcBwLcmB" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
+global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ RikkiVoice" 
 
 
-global.devs = "923184474176" // Developer Contact
+global.devs = "79615027181" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "79615027181";
 
@@ -34,15 +34,15 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] =========================\\
 global.style = process.env.STYLE   || '1'  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
+global.gdbye = process.env.GOODBYE || "true"; 
+global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3
 global.disablepm = process.env.DISABLE_PM || "false"
-global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
+global.disablegroup = process.env.DISABLE_GROUPS || "true", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "" // "text" // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "https://drive.google.com/file/d/1foSu5sZGgKWTs_idPtjxnV2ZLTcq-NSd/view?usp=drive_link" // "text" // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
